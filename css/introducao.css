@@ -1,0 +1,26 @@
+.introducao-bg {
+  background: var(--c12);
+}
+
+.introducao {
+  color: var(--w);
+  grid-template-columns: 1fr 1fr;
+  gap: 0 var(--040);
+  justify-content: start;
+  padding-left: var(--020);
+  padding-right: var(--020);
+}
+
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: var(--080);
+}
+
+.introducao h1 span {
+  color: var(--p1);
+}
+
+.introducao p {
+  margin: var(--020) 0;
+  color: var(--c5);
+}
