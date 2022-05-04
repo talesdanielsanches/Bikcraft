@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -45,6 +46,24 @@
   --120: 7.5rem;
   --160: 10rem;
   --200: 12.5rem;
+
+  /* font size */
+  --12: 0.75rem;
+  --14: 0.875rem;
+  --16: 1rem;
+  --18: 1.125rem;
+  --24: 1.5rem;
+  --32: 2rem;
+  --36: 2.25rem
+  --64: 4rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 /* CSS CONTAINER */
@@ -59,7 +78,7 @@
 .btn {
   color: var(--p5);
   background: var(--gradient);
-  padding: 1rem 2rem;
+  padding: var(--016) var(--032);
   place-items: center;
   border-radius: 5px;
   text-transform: uppercase;
@@ -70,63 +89,63 @@
 .font-1-xxl {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 4rem;
+  font-size: var(--64);
   line-height: 4.5rem;
 }
 
 .font-1-xl {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: var(--32);
   line-height: 2.5rem;
 }
 
 .font-1-l {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: var(--24);
   line-height: 2.25rem;
 }
 
 .font-1-m {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 1.125rem;
+  font-size: var(--18);
   line-height: 1.5rem;
 }
 
 .font-1-m-b {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 1.125rem;
+  font-size: var(--18);
   line-height: 1.5rem;
 }
 
 .font-1-s {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: var(--16);
   line-height: 1.5rem;
 }
 
 .font-1-xs {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 0.75rem;
+  font-size: var(--12);
   line-height: 1rem;
 }
 
 .font-2-l {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: var(--24);
   line-height: 2.25rem;
 }
 
 .font-2-l-b {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: var(--24);
   line-height: 2.25rem;
   text-transform: uppercase;
 }
@@ -134,20 +153,20 @@
 .font-2-m {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 1.125rem;
+  font-size: var(--18);
   line-height: 1.5rem;
 }
 
 .font-2-s {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: var(--16);
   line-height: 1.5rem;
 }
 
 .font-2-xs {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 0.875rem;
+  font-size: var(--14);
   line-height: 1.25rem;
 }
