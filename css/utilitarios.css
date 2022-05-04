@@ -1,0 +1,153 @@
+/* CSS ROOT */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* colors */
+  --w: #fff;
+  --c1: #f7f7f7;
+  --c2: #ededed;
+  --c3: #dedede;
+  --c4: #ccc;
+  --c5: #b2b2b2;
+  --c6: #9c9c9c;
+  --c7: #717171;
+  --c8: #595959;
+  --c9: #404040;
+  --c10: #2e2e2e;
+  --c11: #111;
+  --c12: #000;
+  --p1: #ffbb00;
+  --p2: #e4a30b;
+  --p3: #a66f00;
+  --p4: #664400;
+  --p5: #332200;
+  --gradient: linear-gradient(180deg, var(--p1) 0%, #f2a50c 100%);
+
+  /* spaces */
+  --004: 0.25rem;
+  --008: 0.5rem;
+  --012: 0.75rem;
+  --016: 1rem;
+  --020: 1.25rem;
+  --024: 1.5rem;
+  --032: 2rem;
+  --036: 2.25rem;
+  --040: 2.5rem;
+  --048: 3rem;
+  --060: 3.75rem;
+  --072: 4.5rem;
+  --080: 5rem;
+  --120: 7.5rem;
+  --160: 10rem;
+  --200: 12.5rem;
+}
+
+/* CSS CONTAINER */
+.container {
+  display: grid;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+/* CSS BOTÕES */
+
+.btn {
+  color: var(--p5);
+  background: var(--gradient);
+  padding: 1rem 2rem;
+  place-items: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+/* CSS FONTS */
+
+.font-1-xxl {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 4.5rem;
+}
+
+.font-1-xl {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.font-1-l {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.font-1-m {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.font-1-m-b {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.font-1-s {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-1-xs {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-2-l {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.font-2-l-b {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  text-transform: uppercase;
+}
+
+.font-2-m {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.font-2-s {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-2-xs {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}

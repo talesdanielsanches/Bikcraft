@@ -1,0 +1,8 @@
+header {
+  background: var(--c12);
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--w);
+  align-items: center;
+  justify-content: space-between;
+}
