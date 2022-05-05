@@ -1,5 +1,6 @@
 .introducao-bg {
   background: var(--c12);
+  box-shadow: inset 0 -120px var(--w);
 }
 
 .introducao {
@@ -13,7 +14,7 @@
 
 .introducao-conteudo {
   align-self: end;
-  padding-bottom: var(--080);
+  padding-bottom: var(--200);
 }
 
 .introducao h1 span {
@@ -21,6 +22,49 @@
 }
 
 .introducao p {
-  margin: var(--020) 0;
+  padding: var(--032) 0;
   color: var(--c5);
+}
+
+.introducao img {
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .introducao h1 {
+    font-size: var(--048);
+  }
+
+  .introducao p {
+    font-size: var(--018);
+    padding: var(--020) 0;
+  }
+}
+
+@media (max-width: 850px) {
+  .introducao-bg {
+    box-shadow: inset 0 -60px var(--w);
+    background: var(--c11);
+  }
+
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: var(--032);
+    padding-top: var(--040);
+  }
+
+  .introducao-conteudo {
+    padding-bottom: var(--40);
+  }
+
+  .introducao img {
+    height: 18.75rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
+    font-size: var(--16);
+  }
 }
