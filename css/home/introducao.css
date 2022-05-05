@@ -28,6 +28,7 @@
 
 .introducao img {
   object-fit: cover;
+  box-shadow: var(--shadow-1);
 }
 
 @media (max-width: 1200px) {
