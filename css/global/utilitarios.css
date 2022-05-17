@@ -180,6 +180,26 @@ img {
   background: linear-gradient(#ffb60d, #e59317);
 }
 
+.btn-alt {
+  color: var(--p1);
+  place-items: center;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: var(--24);
+  line-height: 1.33;
+  font-weight: 600;
+  position: relative;
+}
+
+.btn-alt::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: var(--p1);
+  position: absolute;
+}
+
 /* CSS FONTS */
 
 .font-1-xxl {
