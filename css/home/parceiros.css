@@ -34,14 +34,18 @@
 }
 
 @media (max-width: 75rem) {
+  .parceiros {
+    padding: 0;
+  }
+
   .parceiros h2 {
     font-size: var(--048);
-    padding: var(--020) var(--020);
+    padding: var(--040) var(--020);
   }
 }
 
 @media (max-width: 50rem) {
-  .parceiros-conteudo ul {
+  .parceiros-conteudo {
     grid-template-columns: 1fr 1fr;
   }
 
