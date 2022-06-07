@@ -28,6 +28,7 @@
   --p4: #664400;
   --p5: #332200;
   --gradient: linear-gradient(var(--p1), #f2a50c);
+  --gradient-silver: linear-gradient(var(--c10), #363636);
 
   /* spaces */
   --004: 0.25rem;
@@ -174,10 +175,30 @@ img {
   line-height: 1.33;
   font-weight: 600;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  max-width: max-content;
 }
 
 .btn:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.btn-silver {
+  color: var(--c4);
+  background: var(--gradient-silver);
+  padding: var(--016) var(--032);
+  place-items: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: var(--18);
+  line-height: 1.33;
+  font-weight: 600;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  max-width: max-content;
+}
+
+.btn-silver:hover {
+  background: linear-gradient(#383838, #444444);
 }
 
 .btn-alt {
@@ -189,6 +210,7 @@ img {
   line-height: 1.33;
   font-weight: 600;
   position: relative;
+  max-width: max-content;
 }
 
 .btn-alt::after {
