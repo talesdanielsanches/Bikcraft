@@ -6,7 +6,7 @@
   padding: var(--060) var(--020);
 }
 
-.parceiros-conteudo ul {
+.parceiros-conteudo {
   max-width: 87.5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
