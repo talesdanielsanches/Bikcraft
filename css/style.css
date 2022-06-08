@@ -1,9 +1,11 @@
 @import "/css/global/utilitarios.css";
 @import "/css/global/header.css";
 @import "/css/global/footer.css";
+@import "/css/global/titulo-pag-interna.css";
 @import "/css/home/introducao.css";
-@import "/css/home/bicicletas-lista-home.css";
 @import "/css/home/tecnologia.css";
 @import "/css/home/parceiros.css";
 @import "/css/home/depoimento.css";
-@import "/css/home/seguros.css";
+@import "/css/bicicletas/bicicletas-lista-home.css";
+@import "/css/seguros/seguros.css";
+@import "/css/termos/termos.css";

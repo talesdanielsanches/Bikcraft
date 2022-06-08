@@ -1,0 +1,22 @@
+.titulo-bg {
+  background: var(--c11);
+  padding: var(--060) var(--020);
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 50rem) {
+  .titulo-bg {
+    padding: var(--040) var(--020);
+  }
+
+  .titulo h1 {
+    font-size: var(--048);
+  }
+
+  .titulo p {
+    font-size: var(--018);
+  }
+}

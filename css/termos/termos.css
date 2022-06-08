@@ -1,0 +1,19 @@
+.termos {
+  padding: var(--120) var(--020);
+}
+
+.termos h2 {
+  margin-bottom: var(--020);
+}
+
+.termos h2:nth-child(n + 2) {
+  margin-top: var(--040);
+}
+
+.termos p:nth-child(odd) {
+  padding: var(--020) 0;
+}
+
+.termos p {
+  max-width: 90ch;
+}
