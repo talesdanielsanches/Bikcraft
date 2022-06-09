@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
-  padding: 0 var(--020);
+  padding: 0 var(--020) var(--040) var(--020);
 }
 
 .parceiros-conteudo li {
