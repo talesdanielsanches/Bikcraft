@@ -1,6 +1,10 @@
 .titulo-bg {
   background: var(--c11);
-  padding: var(--060) var(--020);
+  padding: var(--060) 0;
+}
+
+.titulo {
+  padding: 0 var(--020);
 }
 
 .titulo p {
@@ -9,7 +13,7 @@
 
 @media (max-width: 50rem) {
   .titulo-bg {
-    padding: var(--040) var(--020);
+    padding: var(--040) 0;
   }
 
   .titulo h1 {

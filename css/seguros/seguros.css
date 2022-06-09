@@ -6,11 +6,20 @@
   padding: var(--060) var(--020);
 }
 
+#seguros .seguros {
+  padding: 0 var(--020);
+}
+
 .seguros-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--040);
   padding: var(--060) 0;
+}
+
+#seguros .seguros-conteudo {
+  padding: 0;
+  padding-bottom: var(--060);
 }
 
 .seguros-item {

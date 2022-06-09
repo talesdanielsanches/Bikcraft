@@ -1,0 +1,33 @@
+.vantagens-bg {
+  background: var(--c12);
+}
+
+.vantagens {
+  padding: var(--120) var(--020);
+}
+
+.vantagens h2 {
+  margin-bottom: var(--060);
+}
+
+.lista-vantagens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: var(--040) var(--080);
+}
+
+.lista-vantagens h3 {
+  display: flex;
+  gap: var(--008);
+  align-items: center;
+}
+
+@media (max-width: 50rem) {
+  .vantagens {
+    padding: var(--060) var(--020);
+  }
+
+  .vantagens h2 {
+    font-size: var(--048);
+  }
+}
