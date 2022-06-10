@@ -2,6 +2,7 @@
 @import "/css/global/header.css";
 @import "/css/global/footer.css";
 @import "/css/global/titulo-pag-interna.css";
+@import "/css/global/formulario.css";
 @import "/css/home/introducao.css";
 @import "/css/home/tecnologia.css";
 @import "/css/home/parceiros.css";
@@ -13,3 +14,5 @@
 @import "/css/seguros/vantagens.css";
 @import "/css/seguros/perguntas.css";
 @import "/css/termos/termos.css";
+@import "/css/contato/contato.css";
+@import "/css/contato/lojas.css";
