@@ -25,6 +25,15 @@
   position: relative;
 }
 
+.header-menu .ativo-header {
+  color: var(--p1);
+}
+
+.header-menu .ativo-header::after {
+  background: var(--p1);
+  width: 100%;
+}
+
 .header-menu a::after {
   content: "";
   display: block;
