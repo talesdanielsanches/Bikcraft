@@ -12,6 +12,8 @@ function ativarLink(link) {
 
 links.forEach(ativarLink);
 
+//--------------------------------------------------------
+
 /*Ativar itens do orçamento*/
 //URLSearchParams é uma classe que pega automaticamente os parâmetros enviados pela URL e transforma em string e entrega elas dentro de um array. Para pegá-las, basta usar o forEach assim como fizemos nos links, e na função chamar o parametro
 const parametros = new URLSearchParams(location.search);
@@ -25,3 +27,25 @@ function ativarProduto(parametro) {
 }
 
 parametros.forEach(ativarProduto);
+
+//--------------------------------------------------------
+
+/*Perguntas frequentes*/
+
+const selecionaPergunta = document.querySelectorAll(".perguntas button");
+
+function ativarPergunta(event) {
+  const pergunta = event.currentTarget;
+  const controls = pergunta.getAttribute("aria-controls");
+  const resposta = document.getElementById(controls);
+
+  resposta.classList.toggle("perg-ativa");
+  const ativa = resposta.classList.contains("perg-ativa");
+  pergunta.setAttribute("aria-expanded", ativa);
+}
+
+function eventoPerguntas(pergunta) {
+  pergunta.addEventListener("click", ativarPergunta);
+}
+
+selecionaPergunta.forEach(eventoPerguntas);
