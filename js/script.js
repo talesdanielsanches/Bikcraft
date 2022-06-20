@@ -76,3 +76,11 @@ function eventosGaleria(img) {
 
 //fazendo o looping de verificação das imagens da galeria
 galeria.forEach(eventosGaleria);
+
+//--------------------------------------------------------
+
+/*Plugins*/
+//Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
