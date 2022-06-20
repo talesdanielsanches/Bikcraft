@@ -49,3 +49,30 @@ function eventoPerguntas(pergunta) {
 }
 
 selecionaPergunta.forEach(eventoPerguntas);
+
+//--------------------------------------------------------
+
+/*Galeria de bicicleta*/
+//selecionando todas as imagens da galeria
+const galeria = document.querySelectorAll(".bicicleta-imagens img");
+//selecionando a galeria toda
+const galeriaContainer = document.querySelector(".bicicleta-imagens");
+
+function trocarImg(event) {
+  //pegando a imagem que foi clicada
+  const img = event.currentTarget;
+  //adicionando media querie para fazer algo só quando for maior que 937px
+  const media = matchMedia("(min-width: 937px)").matches;
+  if (media) {
+    //essa é a ação quando for maior q 937px (adicionar a img clicada no topo)
+    galeriaContainer.prepend(img);
+  }
+}
+
+//adicionando a função que troca a imagem ao ocorrer o evento de clique
+function eventosGaleria(img) {
+  img.addEventListener("click", trocarImg);
+}
+
+//fazendo o looping de verificação das imagens da galeria
+galeria.forEach(eventosGaleria);
